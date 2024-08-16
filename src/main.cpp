@@ -17,16 +17,16 @@ BH1750 lightMeter;
 
 // Conexión a Wifi
 const char ssid[] = "Nico's iPhone";
-const char pass[] = "umbs3225";
+const char pass[] = "******";
 
 // Usuario uniandes sin @uniandes.edu.co
-#define HOSTNAME "n.carvajalc"
+#define HOSTNAME "d.burgos"
 
 // Conexión a Mosquitto
 const char MQTT_HOST[] = "iotlab.virtual.uniandes.edu.co";
 const int MQTT_PORT = 8082;
-const char MQTT_USER[] = "n.carvajalc";
-const char MQTT_PASS[] = "201922019";
+const char MQTT_USER[] = "d.burgos";
+const char MQTT_PASS[] = "201818326";
 const char MQTT_SUB_TOPIC[] = HOSTNAME "/";
 const char MQTT_PUB_TOPIC1[] = "humedad/bogota/" HOSTNAME;
 const char MQTT_PUB_TOPIC2[] = "temperatura/bogota/" HOSTNAME;
